@@ -1,0 +1,142 @@
+*,::before ,::after
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+}
+.btn_Add  
+{
+   width: fit-content;
+   margin-bottom: 20px;
+   background-color: rgb(43, 170, 43);
+   padding: 10px 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 6px;
+   cursor: pointer;
+}
+.btn_Add  a{
+    text-align: 0;
+    color: #fff;
+    text-decoration: none;
+}
+.btn_Add img{
+    width: 30px;
+    height: 15px;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 2px;
+    position: relative;
+    right: 15%;
+}
+/*tableau*/
+table{
+    border-collapse:collapse;
+}
+th
+{
+  padding: 20px;
+  border-bottom: 3px solid orange ;
+  padding: 5px 20px;
+  font-weight: 800;
+  font-size: 20px;
+}
+td
+{
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+img{
+    height: 25px;
+    
+    
+}
+table img
+{
+    cursor: pointer;
+}
+tr:nth-child(2n)
+{
+    background-color:aliceblue;
+}
+td:nth-child(2n)
+{
+    border-bottom: #fff;
+    border-top: #fff;
+}
+/*Form CSS*/
+.form
+{
+    background-color: #f6f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.5);
+    border-radius: 6px;
+}
+.form form
+{
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+   padding: 35px;
+}
+.back_btn
+{
+    color:black;
+    text-decoration: 0;
+    display: flex;
+     align-items: center;
+}
+h2
+{
+    text-transform: uppercase;
+    margin: 5px 0;
+    font-weight: 800;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    /* margin-top: 15px; */
+}
+label 
+{
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.erreur_message
+{
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+}
+input
+{
+   outline: 0;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 2px solid #999;
+}
+input:focus
+{
+    border: 1px solid green;
+    
+}
+input[type="submit"]
+{
+    margin-top: 20px;
+    text-transform: uppercase;
+    background-color: green;
+    border:  1px solid green;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
